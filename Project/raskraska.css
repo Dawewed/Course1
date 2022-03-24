@@ -18,12 +18,12 @@ flex: 1 0 auto;
 flex: 0 0 auto;
 }
 
-
-
-
 a {
     color: orange;
     text-decoration: none;
+    height: 40px;
+    align-items: center;
+    margin-top:10px;
 }
 
 ul {
@@ -32,7 +32,7 @@ ul {
 
 a:hover {
     color: blue;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 input {
@@ -45,7 +45,62 @@ h1 {
 }
 .button {
     width: 100px;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 10px;
+    height: 25px;
+    margin-top: 9px;
 }
+.menu ul {
+    display:flex;
+    justify-content: space-around;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+}
+.form{
+    margin-left: 20px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.podlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

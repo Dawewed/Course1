@@ -9,40 +9,47 @@
 
 <body>
     <div class="wrapper">
-        <div class="content">
+        <div class="menu">
             <ul>
                 <a href="Num1.html">
                     <li>Главная</li>
                 </a>
-                <a href="#l">
+                <a href="#">
                     <li>Каталог</li>
                 </a>
                 <a href="reg.html">
                     <li>Регистрация</li>
                 </a>
-
             </ul>
-
+            <hr>
+        </div>
+        <div class="content">
             <hr>
             <h1>Регистрация на сайте</h1>
-            <form action="#">
-                <br>
-                ФИО
-                <input class="button" type="text">
-                <br>
-                Пароль
-                <input class="button" type="password">
-                <br>
-                E-mail
-                <input class="button" type="mail">
-                <br>
-                <input class="button" type="submit">
-            </form>
+            <div class="form">
+                <form action="#">
+                    ФИО
+
+                    <input type="text" placeholder="ФМИЛИЯ ИМЯ ОТЧЕСТВО">
+
+                    Пароль
+
+                    <input type="password" placeholder="Password">
+
+                    E-mail
+
+                    <input type="mail" placeholder="E-mail">
+                    <input class="button" type="submit">
+                    <input class="button" type="reset">
+                </form>
+
+            </div>
         </div>
+        <script src="script.js"></script>
 
 
         <footer class="footer">
-            
+
             Подвал&copy;
         </footer>
     </div>
